@@ -1,1 +1,3 @@
-module.exports = require('@umijs/lint/dist/config/eslint');
+const config = require('@lobehub/lint').eslint;
+
+module.exports = config;
