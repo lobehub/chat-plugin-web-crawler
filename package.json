@@ -2,7 +2,7 @@
   "name": "lobehub-html-parser",
   "version": "1.0.1",
   "private": true,
-  "description": "基于 Vercel 的免费 Serverless api 模板",
+  "description": "HTML 转 markdown 服务",
   "repository": "https://github.com/arvinxx/vercel-serverless-api-template.git",
   "scripts": {
     "ci": "npm run lint && npm run type-check",

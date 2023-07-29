@@ -1,6 +1,6 @@
 import { Readability } from '@mozilla/readability';
-import { JSDOM } from 'jsdom';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { JSDOM } from 'jsdom';
 import { NodeHtmlMarkdown } from 'node-html-markdown';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
