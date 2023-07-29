@@ -11,5 +11,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const content = NodeHtmlMarkdown.translate(article?.content || '', {});
 
-  res.send({ ...article, content });
+  const body = { ...article, content };
+
+  res.send(body);
+
+  return body;
 }
