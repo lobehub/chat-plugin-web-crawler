@@ -15,8 +15,8 @@
     "prettier": "prettier -c --write \"api/**/*\"",
     "release": "semantic-release",
     "start": "vercel dev",
-    "test": "jest --passWithNoTests",
-    "test:coverage": "jest --coverage  --passWithNoTests",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest --coverage  --passWithNoTests",
     "type-check": "tsc --noEmit"
   },
   "lint-staged": {
@@ -37,7 +37,6 @@
   },
   "devDependencies": {
     "@lobehub/lint": "latest",
-    "@types/jest": "^29",
     "@types/jsdom": "^21",
     "@types/lodash": "^4",
     "@vercel/node": "^2",
