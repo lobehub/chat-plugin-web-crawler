@@ -1,15 +1,13 @@
+import type { VercelRequest, VercelResponse } from '@vercel/node';
+
 import fetchContent from './_utils';
 
-export const config = {
-  runtime: 'edge',
-};
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  if (req.method !== 'POST') {
+    res.status(405);
+  }
 
-export default async (req: Request) => {
-  if (req.method !== 'POST') return new Response('Method Not Allowed', { status: 405 });
+  const result = await fetchContent(req.body);
 
-  const args = (await req.json()) as { url: string };
-
-  const result = await fetchContent(args);
-
-  return new Response(JSON.stringify(result));
-};
+  res.send(result);
+}
