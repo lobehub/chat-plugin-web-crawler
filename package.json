@@ -1,9 +1,9 @@
 {
-  "name": "lobehub-html-parser",
+  "name": "@lobehub/chat-plugin-web-crawler",
   "version": "1.0.1",
   "private": true,
-  "description": "HTML 转 markdown 服务",
-  "repository": "https://github.com/arvinxx/vercel-serverless-api-template.git",
+  "description": "Lobe Chat 网页抓取服务",
+  "repository": "https://github.com/lobehub/chat-plugin-web-crawler.git",
   "scripts": {
     "ci": "npm run lint && npm run type-check",
     "lint": "npm run lint:js && npm run lint:prettier",
