@@ -18,6 +18,6 @@
     }
   },
   "server": {
-    "url": "https://search-engine.chat-plugin.lobehub.com/api/v1"
+    "url": "https://web-crawler.chat-plugin.lobehub.com/api/v1"
   }
 }
