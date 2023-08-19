@@ -1,0 +1,23 @@
+{
+  "name": "websiteCrawler",
+  "version": "1",
+  "schema": {
+    "description": "提取网页内容并总结",
+    "name": "websiteCrawler",
+    "parameters": {
+      "properties": {
+        "url": {
+          "description": "网页内容",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ],
+      "type": "object"
+    }
+  },
+  "server": {
+    "url": "https://search-engine.chat-plugin.lobehub.com/api/v1"
+  }
+}
