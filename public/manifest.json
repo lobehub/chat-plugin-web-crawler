@@ -19,5 +19,24 @@
   },
   "server": {
     "url": "https://web-crawler.chat-plugin.lobehub.com/api/v1"
-  }
+  },
+  "api": [
+    {
+      "name": "getWebsiteContent",
+      "url": "https://web-crawler.chat-plugin.lobehub.com/api/v1",
+      "description": "提取网页内容",
+      "parameters": {
+        "properties": {
+          "url": {
+            "description": "网页链接",
+            "type": "string"
+          }
+        },
+        "required": [
+          "url"
+        ],
+        "type": "object"
+      }
+    }
+  ]
 }
