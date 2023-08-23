@@ -1,5 +1,11 @@
 # Changelog
 
+# [1.1.0](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.0.0...v1.1.0) (2023-08-23)
+
+### ✨ 新特性
+
+- Add api field ([05343b1](https://github.com/lobehub/chat-plugin-web-crawler/commit/05343b1))
+
 # 1.0.0 (2023-08-22)
 
 ### ✅ 测试
