@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.0...v1.1.1) (2023-08-24)
+
+### 🐛 修复
+
+- Update manifest ([2082b49](https://github.com/lobehub/chat-plugin-web-crawler/commit/2082b49))
+
 # [1.1.0](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.0.0...v1.1.0) (2023-08-23)
 
 ### ✨ 新特性

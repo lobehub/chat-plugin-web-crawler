@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-web-crawler",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "description": "Lobe Chat 网页抓取服务",
   "repository": "https://github.com/lobehub/chat-plugin-web-crawler.git",
