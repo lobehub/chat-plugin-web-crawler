@@ -1,5 +1,6 @@
 {
   "name": "websiteCrawler",
+  "identifier": "websiteCrawler",
   "version": "1",
   "schema": {
     "description": "提取网页内容并总结",
