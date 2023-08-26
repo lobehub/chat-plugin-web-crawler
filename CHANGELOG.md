@@ -1,3 +1,40 @@
+<a name="readme-top"></a>
+
+# Changelog
+
+### [Version&nbsp;1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
+
+<sup>Released on **2023-08-26**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Change master to main.
+
+#### 💄 Styles
+
+- **misc**: 优化 属性描述.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Change master to main ([cbbf570](https://github.com/lobehub/chat-plugin-web-crawler/commit/cbbf570))
+
+#### Styles
+
+- **misc**: 优化 属性描述 ([43d77e8](https://github.com/lobehub/chat-plugin-web-crawler/commit/43d77e8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 # Changelog
 
 ## [1.1.1](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.0...v1.1.1) (2023-08-24)
