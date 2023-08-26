@@ -1,7 +1,7 @@
 ---
 hero:
-  title: Search <b>Engine</b>
-  description: Search Engine Plugin for LobeChat
+  title: Web <b>Crawler</b>
+  description: Web Crawler Plugin for LobeChat
 ---
 
 [//]: # '<code src="./demo.tsx" inline ></code>'
