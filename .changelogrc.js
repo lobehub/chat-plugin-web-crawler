@@ -1,3 +1,1 @@
-module.exports = {
-  titleLanguage: 'zh-CN',
-};
+module.exports = require('@lobehub/lint').changelog;
