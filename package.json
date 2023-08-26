@@ -45,6 +45,7 @@
   "devDependencies": {
     "@lobehub/lint": "latest",
     "@lobehub/ui": "latest",
+    "@types/jsdom": "^21.1.2",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
     "babel-plugin-antd-style": "^1.0.4",
