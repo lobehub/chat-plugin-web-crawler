@@ -58,7 +58,7 @@
     "husky": "^8",
     "lint-staged": "^13",
     "lucide-react": "latest",
-    "prettier": "^2",
+    "prettier": "^3",
     "semantic-release": "^21",
     "typescript": "^5",
     "vercel": "^28",
