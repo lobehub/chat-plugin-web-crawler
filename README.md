@@ -8,7 +8,7 @@
 
 <h1>Web Crawler<br/><sup>LobeChat Plugin</sup></h1>
 
-todo describiton ...
+Automatically crawls the main content of a specified URL webpage and uses it as context input
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
