@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version&nbsp;1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
+
+<sup>Released on **2023-09-02**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: 修正 identifier 变更导致无法正常使用的问题.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: 修正 identifier 变更导致无法正常使用的问题 ([06344c3](https://github.com/lobehub/chat-plugin-web-crawler/commit/06344c3))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version&nbsp;1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
 
 <sup>Released on **2023-08-26**</sup>
