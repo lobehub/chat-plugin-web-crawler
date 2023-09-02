@@ -1,6 +1,4 @@
 {
-  "identifier": "websiteCrawler",
-  "version": "1",
   "api": [
     {
       "name": "getWebsiteContent",
@@ -13,11 +11,11 @@
             "type": "string"
           }
         },
-        "required": [
-          "url"
-        ],
+        "required": ["url"],
         "type": "object"
       }
     }
-  ]
+  ],
+  "identifier": "website-crawler",
+  "version": "1"
 }
