@@ -1,3 +1,1 @@
-const config = require('@lobehub/lint').eslint;
-
-module.exports = config;
+module.exports = require('@lobehub/lint').eslint;

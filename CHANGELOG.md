@@ -2,7 +2,7 @@
 
 # Changelog
 
-### [Version&nbsp;1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
+### [Version 1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
 
 <sup>Released on **2023-09-02**</sup>
 
@@ -27,7 +27,7 @@
 
 </div>
 
-### [Version&nbsp;1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
+### [Version 1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
 
 <sup>Released on **2023-08-26**</sup>
 
@@ -104,7 +104,7 @@
 ### 📝 文档
 
 - Update README.md ([41d712b](https://github.com/lobehub/chat-plugin-web-crawler/commit/41d712b))
-- Update README.md [skip ci] ([a02eb8e](https://github.com/lobehub/chat-plugin-web-crawler/commit/a02eb8e))
+- Update README.md \[skip ci] ([a02eb8e](https://github.com/lobehub/chat-plugin-web-crawler/commit/a02eb8e))
 
 ### 🔧 持续集成
 

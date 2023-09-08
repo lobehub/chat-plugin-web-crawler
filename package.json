@@ -2,7 +2,7 @@
   "name": "@lobehub/chat-plugin-web-crawler",
   "version": "1.1.3",
   "private": true,
-  "description": "Lobe Chat 网页抓取服务",
+  "description": "This plugin automatically crawls the main content of a specified URL webpage and uses it as context input",
   "homepage": "https://github.com/lobehub/chat-plugin-web-crawler",
   "repository": "https://github.com/lobehub/chat-plugin-web-crawler.git",
   "scripts": {
@@ -10,16 +10,15 @@
     "ci": "npm run lint && npm run type-check",
     "dev": "father dev",
     "docs:build": "dumi build",
-    "docs:dev": "PORT=8110 dumi dev",
+    "docs:dev": "dumi dev",
     "doctor": "father doctor",
-    "lint": "npm run lint:js && npm run lint:prettier",
-    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
-    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx ./api",
-    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx ./api",
+    "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:md": "remark . --quiet --frail --output",
     "lint:prettier": "prettier --check \"api/**/*\" --end-of-line auto",
+    "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "husky install",
     "prepublishOnly": "npm run doctor && npm run build",
-    "prettier": "prettier -c --write \"api/**/*\"",
+    "prettier": "prettier -c --write \"**/**\"",
     "release": "semantic-release",
     "start": "vercel dev",
     "test": "vitest --passWithNoTests",
@@ -27,9 +26,22 @@
     "type-check": "tsc --noEmit"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
-      "prettier --write"
+    "*.md": [
+      "remark --quiet --output --",
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser=typescript --write",
+      "stylelint --fix",
+      "eslint --fix"
     ]
   },
   "browserslist": [
@@ -38,33 +50,38 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@mozilla/readability": "^0.4.4",
-    "jsdom": "^22.1.0",
-    "node-html-markdown": "^1.3.0"
+    "@mozilla/readability": "^0.4",
+    "jsdom": "^22",
+    "node-html-markdown": "^1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17",
     "@lobehub/lint": "latest",
     "@lobehub/ui": "latest",
-    "@types/jsdom": "^21.1.2",
+    "@types/jsdom": "^21",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
-    "babel-plugin-antd-style": "^1.0.4",
+    "babel-plugin-antd-style": "^1",
     "commitlint": "^17",
     "cross-env": "^7",
     "dumi": "^2",
     "dumi-theme-lobehub": "latest",
     "eslint": "^8",
-    "father": "^4.3.1",
+    "father": "4.3.1",
     "husky": "^8",
     "lint-staged": "^13",
     "lucide-react": "latest",
     "prettier": "^3",
+    "remark": "^14",
+    "remark-cli": "^11",
     "semantic-release": "^21",
+    "stylelint": "^15",
     "typescript": "^5",
     "vercel": "^28",
     "vitest": "latest"
   },
   "peerDependencies": {
-    "react": "^18"
+    "react": ">=18",
+    "react-dom": ">=18"
   }
 }

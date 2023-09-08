@@ -2,16 +2,24 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES5",
-    "lib": ["esnext", "DOM"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "@/*": ["src/*"]
+    },
+    "types": ["vitest/globals"]
   },
-  "include": ["types", "api"]
+  "include": ["src", "docs", "api", ".dumi/**/*", ".dumirc.ts", "*.ts"]
 }

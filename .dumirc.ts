@@ -3,6 +3,8 @@ import { Github } from 'lucide-react';
 
 import { homepage } from './package.json';
 
+const isWin = process.platform === 'win32';
+
 const themeConfig = {
   actions: [
     {
@@ -12,8 +14,8 @@ const themeConfig = {
       text: 'Github',
     },
     {
-      link: '/components/action-icon',
-      text: 'Get Started',
+      link: 'https://github.com/lobehub/lobe-chat',
+      text: 'Try it on LobeChat',
       type: 'primary',
     },
   ],
@@ -30,11 +32,9 @@ export default defineConfig({
   favicons: [
     'https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/spider-web.webp',
   ],
-  // locales: [{ id: 'en-US', name: 'English' }],
-  mfsu: {},
+  mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
   outputPath: 'docs-dist',
-  // ssr: isProduction ? {} : false,
   styles: [
     `html, body { background: transparent;  }
 

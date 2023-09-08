@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import * as path from 'node:path';
-
 import { expect } from 'vitest';
+
 import { htmlToMarkdown } from '../api/v1/_utils';
 
 describe('html-to-markdown', () => {
