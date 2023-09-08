@@ -2,6 +2,33 @@
 
 # Changelog
 
+### [Version 1.1.4](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.3...v1.1.4)
+
+<sup>Released on **2023-09-08**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix ci, Fix snapshots, Fix test.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix ci ([184e184](https://github.com/lobehub/chat-plugin-web-crawler/commit/184e184))
+- **misc**: Fix snapshots ([8188c36](https://github.com/lobehub/chat-plugin-web-crawler/commit/8188c36))
+- **misc**: Fix test ([70f4302](https://github.com/lobehub/chat-plugin-web-crawler/commit/70f4302))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
 
 <sup>Released on **2023-09-02**</sup>
