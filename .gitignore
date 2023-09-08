@@ -45,3 +45,5 @@ test-output
 .vercel
 public/dist
 docs-dist
+__snapshots__
+*.snap
