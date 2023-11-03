@@ -45,3 +45,4 @@ test-output
 .vercel
 public/dist
 docs-dist
+bun.lockb
