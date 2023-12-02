@@ -1,4 +1,5 @@
 {
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
       "name": "getWebsiteContent",
@@ -16,6 +17,9 @@
       }
     }
   ],
+  "author": "LobeHub",
+  "createAt": "2023-08-17",
+  "homepage": "https://github.com/lobehub/chat-plugin-web-crawler",
   "identifier": "website-crawler",
   "meta": {
     "avatar": "🕸",

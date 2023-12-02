@@ -50,6 +50,7 @@
     "not ie <= 10"
   ],
   "dependencies": {
+    "@lobehub/chat-plugin-sdk": "^1",
     "@mozilla/readability": "^0.4",
     "jsdom": "^22",
     "node-html-markdown": "^1"
