@@ -2,7 +2,32 @@
 
 # Changelog
 
-### [Version 1.1.4](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.3...v1.1.4)
+## [Version 1.2.0](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.4...v1.2.0)
+
+<sup>Released on **2023-12-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add plugin meta in manifest.json.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add plugin meta in manifest.json ([144b22a](https://github.com/lobehub/chat-plugin-web-crawler/commit/144b22a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.1.4](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.3...v1.1.4)
 
 <sup>Released on **2023-09-08**</sup>
 
@@ -29,7 +54,7 @@
 
 </div>
 
-### [Version 1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
+### [Version 1.1.3](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.2...v1.1.3)
 
 <sup>Released on **2023-09-02**</sup>
 
@@ -54,7 +79,7 @@
 
 </div>
 
-### [Version 1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
+### [Version 1.1.2](https://github.com/lobehub/chat-plugin-web-crawler/compare/v1.1.1...v1.1.2)
 
 <sup>Released on **2023-08-26**</sup>
 

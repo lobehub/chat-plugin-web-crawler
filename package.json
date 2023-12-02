@@ -1,6 +1,6 @@
 {
   "name": "@lobehub/chat-plugin-web-crawler",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "private": true,
   "description": "This plugin automatically crawls the main content of a specified URL webpage and uses it as context input",
   "homepage": "https://github.com/lobehub/chat-plugin-web-crawler",
