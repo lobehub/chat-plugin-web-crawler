@@ -17,5 +17,11 @@
     }
   ],
   "identifier": "website-crawler",
+  "meta": {
+    "avatar": "🕸",
+    "tags": ["web", "content-crawler"],
+    "title": "Website Crawler",
+    "description": "Extract content from web links"
+  },
   "version": "1"
 }
